@@ -34,9 +34,9 @@ class Console {
     this.version = version;
     this.displayPlug = displayPlug;
     }
-    printConsoleDetail(
-        console.log('A ${} ')
-    )
+    printConsoleDetail(){
+        console.log()
+    }
 }
 
 const xbox = new Console('Microsoft', 'White', 'A', '1S', 'HDMI')
